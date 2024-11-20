@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Housef</title>
+    <!-- ----------------------------talwind and daisy ui --------------------------------------- -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- ----------------------------font manrope---------------------------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- ---------------------tailwind custom color------------------------- -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- ----------------------font awesome-------------------------------------------- -->
+    <script src="https://kit.fontawesome.com/d7b7563d24.js" crossorigin="anonymous"></script>
+
+
+
+
+    <!-- --------------------- custom style css------------------------- -->
+
+    <style>
+        html,
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: #ffffff !important;
+            height: 100%;
+            color: black;
+        }
+
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-manrope">
+    <!-- header -->
+    <header class="container max-auto ">
+        <div class="hero-content flex-col lg:flex-row">
+            <!-- left section -->
+            <div>
+                <h1 class=" text-5xl md:text-6xl  lg:text-7xl font-extrabold">It's good <br>
+                    tea time at The <br>
+                    Tea House</h1>
+                <p class="py-6">
+                    Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                </p>
+                <button class="btn btn-primary">Explore More</button>
+            </div>
+            <!-- right section -->
+            <div class="">
+                <img src="images/banner.png" class=" md:max-w-sm " />
+                <!-- --------------------ratings badge---------------------------------- -->
+                <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
+                    <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                    <div>
+                        <h3 class="text-3xl">5.00</h3>
+                        <p>Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- content -->
+    <main class="container mx-auto bg-white">
+        <!-- ---------------- feature section--------------------------------------- -->
+        <section class="text-center my-24 bg-white py-20 px-4 ">
+            <h2 class=" text-3xl  md:text-4xl  lg:text-5xl font-extrabold mb-5">Our Featured Products</h2>
+            <p class="lg:max-w-3xl mx-auto pb-20">There are many variations of passages of Lorem Ipsum available, but
+                the
+                majority have suffered alteration
+                in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <!-- --------------------fearure tea Card Contianer---------------------------------------- -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 ">
+                <!-- ---------------------Frist Card-------------------------- -->
+                <div class="card   bg-gradient-to-t from-[#ffffff] to-[#F4F4F4] border-2 border-[#F4F4F4] py-5 pt-10 ">
+                    <figure>
+                        <img src="images/tea-1.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class=" text-2xl  md:text-3xl     lg:text-4xl font-extrabold  ">Milk Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                        <div class="card-actions justify-end">
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ---------------------Second Card-------------------------- -->
+                <div class="card   bg-gradient-to-t from-[#ffffff] to-[#F4F4F4] border-2 border-[#F4F4F4] py-5 pt-10 ">
+                    <figure>
+                        <img src="images/tea-1.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class=" text-2xl  md:text-3xl     lg:text-4xl font-extrabold  ">Black Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                        <div class="card-actions justify-end">
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ---------------------Thard Card-------------------------- -->
+                <div class="card   bg-gradient-to-t from-[#ffffff] to-[#F4F4F4] border-2 border-[#F4F4F4] py-5 pt-10 ">
+                    <figure>
+                        <img src="images/tea-1.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class=" text-2xl  md:text-3xl  lg:text-4xl font-extrabold  ">LemonTea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                        <div class="card-actions justify-end">
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ---------------------Forth Card-------------------------- -->
+                <div class="card   bg-gradient-to-t from-[#ffffff] to-[#F4F4F4] border-2 border-[#F4F4F4] py-5 pt-10 ">
+                    <figure>
+                        <img src="images/tea-1.png" alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <h2 class=" text-2xl  md:text-3xl     lg:text-4xl font-extrabold  ">Green Tea</h2>
+                        <p>Creamer could be replaced by fresh milk</p>
+                        <div class="card-actions justify-end">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
